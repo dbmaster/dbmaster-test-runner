@@ -1,0 +1,9 @@
+.invocation-failed,  .test-failed  { background-color: #ff9191; }
+.invocation-percent, .test-percent { background-color: #ffffaa; }
+.invocation-passed,  .test-passed  { background-color: #b9ffb9; }
+.invocation-skipped, .test-skipped { background-color: #ffffff; }
+
+.main-page {
+  font-size: x-large;
+}
+

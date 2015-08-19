@@ -1,0 +1,13 @@
+<tools>
+    <tool id="dbmaster-test-runner" title="DBMaster::Test runner">
+        <description>Runs testng</description>
+        <parameters>
+            <parameter name="p_config"   title="Config" type="text" required="false" 
+                        width="300"/>
+            <parameter name="p_tests"   title="Tests"   type="text" required="true" 
+                        width="300" height="5" />
+                        
+        </parameters>
+        <output  script="TestRunner.groovy" type="html" />
+    </tool>
+</tools>
