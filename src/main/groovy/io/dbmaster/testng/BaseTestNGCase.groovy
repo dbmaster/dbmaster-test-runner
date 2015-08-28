@@ -1,6 +1,5 @@
 package io.dbmaster.testng;
 
-
 import java.util.Map;
 
 import com.google.inject.Injector;

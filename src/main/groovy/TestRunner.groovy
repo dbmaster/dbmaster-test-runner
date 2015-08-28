@@ -61,9 +61,9 @@ gcl.addURL(getClass().getResource("extra/bsh.jar"));
 gcl.addURL(getClass().getResource("extra/testng.jar"));
 Class baseTestCl =
 gcl.parseClass(new GroovyCodeSource(getClass().getResource("io/dbmaster/testng/BaseTestNGCase.groovy")));
+gcl.parseClass(new GroovyCodeSource(getClass().getResource("io/dbmaster/testng/OverridePropertyNames.groovy")));
 gcl.parseClass(new GroovyCodeSource(getClass().getResource("io/dbmaster/testng/BaseServiceTestNGCase.groovy")));
 gcl.parseClass(new GroovyCodeSource(getClass().getResource("io/dbmaster/testng/BaseToolTestNGCase.groovy")));
-
 
 Field f;
 f = baseTestCl.getDeclaredField("injector");
